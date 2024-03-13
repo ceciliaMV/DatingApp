@@ -60,10 +60,10 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "options":{
-            "ssl":true,
-            "sslCert":"C:/Users/cmachin/Desktop/AngularInstalacion/localhost.pem",
-            "sslKey":"C:/Users/cmachin/Desktop/AngularInstalacion/localhost-key.pem"
+          "options": {
+            "ssl": true,
+            "sslCert": "C:/Users/cmachin/Desktop/AngularInstalacion/localhost.pem",
+            "sslKey": "C:/Users/cmachin/Desktop/AngularInstalacion/localhost-key.pem"
           },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
