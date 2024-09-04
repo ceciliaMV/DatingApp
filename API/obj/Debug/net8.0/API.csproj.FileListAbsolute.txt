@@ -129,3 +129,6 @@ C:\Users\cmachin\Desktop\Angular\DatingApp\API\bin\Debug\net8.0\System.IdentityM
 C:\Users\cmachin\Desktop\Angular\DatingApp\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\cmachin\Desktop\Angular\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\cmachin\Desktop\Angular\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\cmachin\Desktop\Angular\DatingApp\API\bin\Debug\net8.0\Data\UserSeedData.json
+C:\Users\cmachin\Desktop\Angular\DatingApp\API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\cmachin\Desktop\Angular\DatingApp\API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
