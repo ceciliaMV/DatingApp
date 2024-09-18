@@ -11,7 +11,7 @@ import { MembersService } from 'src/app/_services/members.service';
   standalone:true,
   templateUrl: './member-detail.component.html',
   styleUrls: ['./member-detail.component.css'],
-  imports:[CommonModule,TabsModule ,GalleryModule] //
+  imports:[CommonModule,TabsModule ] //,GalleryModule
 })
 export class MemberDetailComponent {
 member:Member|undefined;
@@ -24,15 +24,15 @@ loadMember(){
   var username = this.route.snapshot.paramMap.get('username');
   if(!username) return;
   this.memberService.getMember(username).subscribe({
-    next: member =>{this.member=member,
-      this.getImages();
+    next: member =>{this.member=member//,
+      //this.getImages();
     }
   })
 }
-getImages(){
+/*getImages(){
   if(!this.member) return;
   for(const photo of this.member?.photos){
     this.images.push(new ImageItem({src:photo.url,thumb:photo.url}))
   }
-}
+}*/
 }
