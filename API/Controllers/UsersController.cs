@@ -28,7 +28,7 @@ public class UsersController : BaseApiController
     
     return Ok(users);
   }
-
+[AllowAnonymous]
   [HttpGet("{username}")] // api/users/2
 
   public async Task<ActionResult<MemberDto>> GetUser(string username)
